@@ -1,0 +1,255 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+/*	background-color: blue;*/
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	backdrop-filter: blur(20px);
+/*	background: transparent;*/
+/*	height: 100vh;*/
+/*	background-color: green;*/
+/*	background-image: linear-gradient(to left, royalblue, red, gainsboro);*/
+	background-image: linear-gradient(to right, #EFEEEE, #E8E6D9, #DFCBB4, #A6B4B2);
+	z-index: 5;
+}
+.mymenus{
+	font-weight: bolder;
+	color: black;
+}
+.mymenus:hover{
+	text-decoration: underline 2.5px solid royalblue;
+	color: blueviolet;
+}
+.mymenus:visited{
+/*	color: green;*/
+	background-color: white;
+}
+.mymenus:active{
+	color: hotpink;
+}
+.logo{
+	font-family: arial black;
+	font-size: 30px;
+	color: royalblue;
+}
+/*.logo:hover{
+	color: #000080;
+	transform: scale(1.3);
+}*/
+.allsections{
+	position: relative;
+	top: 80px;
+	width: 100%;
+}
+/*.section{
+	width: 100%;
+	height: 100vh;
+	border: 5px solid green;
+}*/
+.section h1{
+	text-align: center;
+	margin-top: 250px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home-section{
+	border: none;
+	width: 100%;
+	height: 500px;
+/*	background-image: url("https://miro.medium.com/v2/resize:fit:1272/1*ZSVmWGcc1weENb0ShawWxw.gif" alt="/Users/anupjaiswal/Downloads/1_ZSVmWGcc1weENb0ShawWxw.gif");*/
+	background-image: url("https://camo.githubusercontent.com/f1f2bc6e7ec110b34bab4ec55aa5c93ebae552ae011f5756bd7b7f783d627a6d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 90% 2%;
+}
+.myinfo{
+	padding-left: 10%;
+	height: 450px;
+	width: 50%;
+	margin: 10% 0% 20%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: elephant;
+}
+.myname{
+	font-size: 50px;
+}
+.myname:hover{
+	color: #000085;
+	transform: scale(1.14);
+}
+.fsjd{
+	font-family: Arial Black;
+	color: orange;
+	font-size: 30px;
+}
+.rsm{
+	height: 60px;
+	width: 120px;
+	margin: 20px 30px;
+	border: none;
+	background-color: royalblue;
+	color: white;
+	border-radius: 15px;
+	font-family: arial black;
+}
+.rsm:hover{
+	background-color: white;
+	color: royalblue;
+	border: 1.8px solid royalblue;
+	transform: scale(1.1);
+}
+.about-section{
+	background-color: revert;
+	border: none;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding: 20px;
+}
+.aboutsect{
+	height: 300px;
+}
+.myimg{
+	top: 20px;
+	margin-left: 15%;
+	width: 45%;
+}
+.cobj{
+	padding: 40px;
+}
+.career{
+	text-align: justify;
+	font-size: 25px;
+	margin-top: 30px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+/*.skill-section{
+	height: 530px;
+	border: none;
+	padding: 20px;
+/*	text-align: center;*
+}
+.rows td{
+	padding: 10px;
+}
+.tbl{
+	margin-top: 30px;
+}
+.skill-head{
+	font-family: Arial Black;
+	font-size: 25px;
+	margin-bottom: 30px;
+	color: orangered;
+	font-variant: ;
+	text-decoration: underline 3px solid orange;
+}
+.skillset{
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+.rows id div{
+	height: 200px;
+/*	b*
+
+}
+.rows id div:hover{
+	box-shadow: 0px 0px 18px gray;
+}
+.project-section{
+	padding: 20px;
+	border: none;
+}
+.all-projects{
+	margin-top: 40px;
+
+
+}*/
+
+.skills-section{
+	top: 100px;
+	height: 400px;
+	border: none;
+	padding: 20px;
+}
+.rows td{
+	padding: 10px;
+}
+.tbl{
+	margin-top: 50px;
+}
+.skill-head{
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-family: Arial Black;
+	color: orangered;
+	font-variant: small-caps;
+	text-decoration: underline 3px solid orangered;
+}
+.skillset{
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+.rows td div{
+	height: 200px;
+	border-radius: 20px;
+}
+.rows td div:hover{
+	box-shadow: 0px 0px 10px grey;
+	transform: scale(1.0245);
+}
+.project-section{
+	padding: 20px;
+	border: none;
+}
+.all-projects{
+	margin-top: 40px;
+}
+.card-title{
+	color: orangered;
+	font-weight: bolder;
+}
+.card-img-top{
+	height: 200px;
+	width: 200px;
+}
+/*.project-section{
+	height: 1200px;
+}*/
+.contect-section{
+	width: 100%;
+	border: none;
+	background-color: whitesmoke;
+	padding: 30px;
+}
+.btn-primary{
+	background-color: royalblue;
+	color: white;
+	border-radius: 15px;
+}
+.btn-primary:hover{
+	background-color: white;
+	color: royalblue;
+	border: 2px solid royalblue;
+/*	transform: scale(5.5);*/
+}
+.cnt-tbl{
+	margin-top: 30px;
+}
+.nation{
+/*	font-family: elephant;*/
+	font-weight: bold;
+}
